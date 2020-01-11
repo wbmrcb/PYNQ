@@ -54,7 +54,7 @@ if [ ! -d $script_dir/pynq/lib/arduino/bsp_iop_arduino ] || \
 	[ ! -d $script_dir/pynq/lib/pmod/bsp_iop_pmod ] || \
 	[ ! -d $script_dir/pynq/lib/rpi/bsp_iop_rpi ]; then
 	cd $script_dir/boards/sw_repo
-	make HDF=../Pynq-Z2/base/base.hdf HW_DEF=hw_base
+	#make HDF=../Pynq-Z2/base/base.hdf HW_DEF=hw_base
 
 	cd $script_dir/boards/sw_repo
 	cd bsp_iop_arduino_mb/iop_arduino_mb && rm -rf code libsrc && cd -
