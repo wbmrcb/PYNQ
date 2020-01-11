@@ -76,7 +76,7 @@ fi
 
 if [ ! -d $script_dir/pynq/lib/logictools/bsp_lcp_ar_mb ]; then
 	cd $script_dir/boards/sw_repo
-	make HDF=../Pynq-Z2/logictools/logictools.hdf HW_DEF=hw_logictools
+	#make HDF=../Pynq-Z2/logictools/logictools.hdf HW_DEF=hw_logictools
 
 	cd $script_dir/boards/sw_repo
 	cd bsp_lcp_ar_mb/lcp_ar_mb && rm -rf code libsrc && cd -
