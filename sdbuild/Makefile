@@ -4,8 +4,8 @@ BOARDS ?= $(basename $(notdir $(wildcard $(BOARDDIR)/*/*.spec)))
 UBUNTU_RELEASE := bionic
 VERSION := 2.5
 
-KERNEL_VERSION := 2019.1
-LINUX_VERSION := 4.19.0-xilinx-v2019.1
+KERNEL_VERSION := 2019.2
+LINUX_VERSION := 4.19.0-xilinx-v2019.2
 QEMU_VERSION := 4.0.0
 SCRIPT_DIR := $(CURDIR)/scripts
 SHELL := /bin/bash
