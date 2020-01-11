@@ -31,7 +31,6 @@ zerofree
 u-boot-tools
 rpm2cpio
 libsdl1.2-dev
-gcc-multilib
 EOT
 
 if [ "$EUID" -eq 0 ] ; then
