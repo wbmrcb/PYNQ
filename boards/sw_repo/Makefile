@@ -1,5 +1,5 @@
 # Makefile to build BSPs.
-HDF := ../Pynq-Z1/base/base/base.sdk/base.hdf
+HDF := ../DSDB/base.xsa
 HW_DEF := hw_base
 
 all: help sdk_workspace
@@ -19,7 +19,8 @@ help:
 	@echo
 
 sdk_workspace:
-	xsdk -batch -source build_xsdk.tcl $(HDF) $(HW_DEF)
+	@echo "Skip HW for now"
+	#xsdk -batch -source build_xsdk.tcl $(HDF) $(HW_DEF)
 
 clean:
 	rm -rf bsp_*
