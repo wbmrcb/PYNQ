@@ -20,7 +20,7 @@ help:
 
 sdk_workspace:
 	@echo "Skip HW for now"
-	#xsdk -batch -source build_xsdk.tcl $(HDF) $(HW_DEF)
+	xsdk -batch -source build_xsdk.tcl $(HDF) $(HW_DEF)
 
 clean:
 	rm -rf bsp_*
